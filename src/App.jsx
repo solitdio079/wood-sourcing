@@ -27,7 +27,7 @@ import {
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
-const whatsappNumber = '905551234567';
+const whatsappNumber = '905364613555';
 
 const productImages = {
   mdf: '/assets/mdf.png',
