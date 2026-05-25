@@ -20,10 +20,10 @@ npm run build
 This project includes a multi-stage Dockerfile:
 
 - Build stage: installs dependencies with `npm ci` and runs `npm run build`
-- Production stage: serves `dist` with Nginx on port `80`
+- Production stage: serves `dist` with Nginx on port `3000`
 
 Coolify Docker deployment:
 
 - Build pack: Dockerfile
 - Dockerfile location: `./Dockerfile`
-- Exposed port: `80`
+- Exposed port: `3000`
